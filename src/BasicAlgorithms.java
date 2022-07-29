@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class BasicAlgorithms {
 
+    // first algorithm
     public static void sayHello(String num) {
         try {
             if (Integer.parseInt(num) > 7) {
@@ -14,6 +15,7 @@ public class BasicAlgorithms {
         }
     }
 
+    // second algorithm
     public static void helloViacheslav(String name) {
         if (name.equals("Viacheslav")) {
             System.out.println("Hello, " + name);
@@ -22,6 +24,7 @@ public class BasicAlgorithms {
         }
     }
 
+    // third algorithm
     public static void multiplesOfThree(String sequence){
         String[] strArr = sequence.split(" ");
         int size = strArr.length;
@@ -46,10 +49,12 @@ public class BasicAlgorithms {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
+            // start first algorithm
             System.out.println("\nTask 1: Provide any number (Hint: for numbers greater than 7 You'll receive a greeting ^-^):");
             String number = sc.nextLine();
             sayHello(number);
 
+            // repeat or go to next one
             System.out.println("\n- Do you want to repeat? (Provide answer as 'yes' or 'no')");
             String control = sc.nextLine();
             if (control.equals("no")){
@@ -60,10 +65,12 @@ public class BasicAlgorithms {
         }
 
         while (true) {
+            // start second algorithm
             System.out.println("\nTask 2: Try to guess a name (Hint: Viacheslav is my favourite name ;):");
             String name = sc.nextLine();
             helloViacheslav(name);
 
+            // repeat or go to next one
             System.out.println("\n- Do you want to repeat? (Provide answer as 'yes' or 'no')");
             String control = sc.nextLine();
             if (control.equals("no")){
@@ -74,10 +81,12 @@ public class BasicAlgorithms {
         }
 
         while (true) {
+            // start third algorithm
             System.out.println("\nTask 3: Provide a sequence of numbers separated by 'space' (Example: 1 22 333):");
             String array = sc.nextLine();
             multiplesOfThree(array);
 
+            // repeat or finish
             System.out.println("\n- Do you want to repeat? (Provide answer as 'yes' or 'no')");
             String control = sc.nextLine();
             if (control.equals("no")){

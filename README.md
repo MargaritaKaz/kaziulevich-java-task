@@ -14,3 +14,4 @@ To compile and run program from cmd use:
 $ javac BasicAlgorithms.java
 $ java BasicAlgorithms
 ```
+PS. Answer to task 4 is presented in file Task_4.pdf.

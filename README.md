@@ -11,7 +11,7 @@ From input sequence of numbers program choses only multiples of number 3.
 To compile and run program from cmd use:
 
 ```
-$ javac BasicAlgorithms.java
-$ java BasicAlgorithms
+$ javac src\BasicAlgorithms.java
+$ java src\BasicAlgorithms
 ```
 PS. Answer to task 4 is presented in file Task_4.pdf.

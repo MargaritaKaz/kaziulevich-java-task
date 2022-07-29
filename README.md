@@ -9,5 +9,8 @@ From input sequence of numbers program choses only multiples of number 3.
 #### User can repeat execution of each task or go to next one by providing answer "yes" or "no" for the question "Do You want to repeat?".
 
 To compile and run program from cmd use:
+
+```
 $ javac BasicAlgorithms.java
 $ java BasicAlgorithms
+```
